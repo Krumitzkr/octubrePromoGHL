@@ -686,6 +686,7 @@ img {
     background: linear-gradient(to top, #920505 0%, #1d0030 80%);
     height: 100%;
     width: 100%;
+    z-index: 9999;
     position: fixed;
     margin-top: 0;
     top: 0
@@ -694,7 +695,8 @@ img {
 #loading-center {
     width: 100%;
     height: 100%;
-    position: relative
+    position: relative;
+    z-index: 999;
 }
 
 #loading-center-absolute {
@@ -704,6 +706,7 @@ img {
     height: 100px;
     width: 300px;
     transform: translate(-50%, -50%);
+    z-index: 999;
 }
 
 /*=====================================Download popup Part Start start =======================================*/
