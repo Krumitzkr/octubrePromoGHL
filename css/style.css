@@ -434,7 +434,7 @@ img {
     vertical-align: top;
     text-align: center;
     line-height: 24px;
-    color: #8e0d0d;
+    color: #f4f0f0;
     font-weight: 400;
     font-family: "Berkshire Swash";
     padding: 12px;
@@ -445,7 +445,7 @@ img {
     -moz-transition: ease all .5s;
     -o-transition: ease all .5s;
     transition: ease all .5s;
-    background: #cccbcb;
+    background: #790303;
 }
 
 .btn-bar a:hover {
