@@ -205,14 +205,14 @@
         min-height: 100vh;
     }
     .gallery{
-        background-image: url(../images/fondo1.jpg) ;
+        background-image: url(../images/fondo17.jpg) ;
         background-repeat: no-repeat;
         position: relative;
         background-attachment: fixed;
         background-size:cover;
     }
     .home-banner{
-        background-image: url(../images/fondo1.jpg) ;
+        background-image: url(../images/fondo17.jpg) ;
         background-repeat: no-repeat;
         position: relative;
         background-attachment: fixed;
