@@ -1,0 +1,1 @@
+(function(a){var c=a("nav"),f=a("#jingle_bell")[0],d=a(".sound_toggle_btn"),b=0;var e=false;d.on("click",function(){a(this).children("span").toggleClass("fa fa-play fa fa-pause");if(e==true){f.play();e="false"}else{f.pause();e=true}});f.volume="0.9";a(".slider-input").on("change",function(){var g=a(this).val()/10;f.volume=g})})(jQuery);
