@@ -535,16 +535,15 @@ img {
 
 .overlay {
     position: absolute;
-    bottom: 100%;
-    left: 0;
+    bottom: 0;
+    left: -15%;
     right: 0;
-    top: 0;
+    top: 100%;
     background-color: rgba(89, 3, 3, 0);
-    overflow: hidden;
     width: 100%;
     height: 0;
     transition: .5s ease;
-    display: none;
+    
 }
 
 .gallery-overlay ul {
@@ -559,20 +558,17 @@ img {
 }
 
 .gallery-overlay ul li a {
-    background-color: white;
+    background-color: rgb(109, 3, 3);
     text-align: center;
     border: 1px solid #ffffff;
     display: inline-block;
-    color: #000;
-    font-size: 16px;
-    width: 38px;
-    height: 38px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    width: 100%;
+    height: 29px;
     line-height: 36px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 20px;
+    padding: 6px;
     -webkit-transition: ease all .5s;
     -moz-transition: ease all .5s;
     -o-transition: ease all .5s;
@@ -591,8 +587,8 @@ img {
 
 .gallery-overlay:hover .overlay {
     bottom: 0;
-    height: 100%;
-    cursor: crosshair;
+    height: 0%;
+    
 }
 
 .gallery-img h2 {
